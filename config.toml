@@ -1,0 +1,4 @@
+baseURL = 'https://blog.steveandmimi.com/'
+languageCode = 'en-us'
+title = 'It’s All Bits, Atoms, and Electrons.'
+theme = 'beautifulhugo'
