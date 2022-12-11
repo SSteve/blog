@@ -1,7 +1,10 @@
 ---
 title: "Initial Setup"
+summary: "Notes on setting up the blog"
 date: 2022-11-28T19:53:20-08:00
 draft: false
+tags:
+- Web Site
 ---
 
 ## Notes on setting up the blog
