@@ -1,12 +1,10 @@
----
-title: "Intro"
-date: 2022-11-28T19:20:51-08:00
-summary: "I’m attempting to make a blog. I give this about a 20% chance of success."
-draft: false
-tags:
-- Hugo
-- Web Site
----
++++
+date = '2022-11-28T19:20:51-08:00'
+draft = false
+summary = 'I’m attempting to make a blog. I give this about a 20% chance of success.'
+tags = ['Hugo', 'Web Site']
+title = 'Intro'
++++
 
 ## Introduction
 

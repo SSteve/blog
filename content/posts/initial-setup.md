@@ -1,11 +1,10 @@
----
-title: "Initial Setup"
-summary: "Notes on setting up the blog"
-date: 2022-11-28T19:53:20-08:00
-draft: false
-tags:
-- Web Site
----
++++
+date = '2022-11-28T19:53:20-08:00'
+draft = false
+summary = 'Notes on setting up the blog'
+tags = ['Web Site']
+title = 'Initial Setup'
++++
 
 ## Notes on setting up the blog
 
@@ -23,7 +22,7 @@ I set up a GitHub workflow to build and deploy the site whenever changes are pus
 
 I created repository secrets for the host, port, user, path, and key. (The key is the private ssh key.)
 
-One of the steps I took created something that expires December 31, 2023. Now I can't remember which thing that was.
+In GitHub I created a Personal Access Token called "Hugo deploy" in [Settings](https://github.com/settings/personal-access-tokens/403489) that has fine-grained access to the SSteve/blog repository. It expires on Dec 21, 2023. There's a "Regenerate token" button on the token page so I guess I can use that when the token expires. It is in the Actions Secrets with the name "TOKEN". The instructions for doing that came from [this blog post](https://ruddra.com/hugo-deploy-static-page-using-github-actions/).
 
 This is the workflow file:
 

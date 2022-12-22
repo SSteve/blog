@@ -1,12 +1,10 @@
----
-title: "Code Sample"
-summary: "PPPPP"
-date: 2022-11-28T20:27:21-08:00
-draft: true
-tags:
-- Programming
-- Python
----
++++
+date = '2022-11-28T20:27:21-08:00'
+draft = true
+summary = 'PPPPP'
+tags = ['Programming', 'Python']
+title = 'Code Sample'
++++
 
 ## This is a test to see if code formatting works.
 
