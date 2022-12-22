@@ -20,7 +20,7 @@ jobs:
               run: hugo --minify
               
             - name: rsync deployment
-              uses: burnett01/rsync-deployments%5.2.1
+              uses: burnett01/rsync-deployments@5.2.1
               with:
                 switches: -avzr --delete --exclude="" --include="" --filter=""
                 path: public/
